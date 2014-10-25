@@ -17,7 +17,7 @@
 # ==============================================================================
 
 # variables
-$url = "http://files.lambyhat.com/chocolatey/chocolatey.1.9.8.27.nupkg"
+$url = "http://files.lambyhat.com/chocolatey/chocolateyInstall.zip"
 $chocTempDir = Join-Path $env:TEMP "chocolatey"
 $tempDir = Join-Path $chocTempDir "chocInstall"
 if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
