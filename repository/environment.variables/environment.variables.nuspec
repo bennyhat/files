@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>environment.variables</id>
+    <title>Environment Variables</title>
+    <version>0.0.1</version>
+    <authors>Ben Brewer</authors>
+    <owners>Ben Brewer</owners>
+    <summary>Permanently sets a minimal set of development environment variables</summary>
+    <description>Permanently sets a minimal set of development environment variables</description>
+    <projectUrl>http://www.lambyhat.com/chocolatey</projectUrl>
+    <tags>environment.variables admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.lambyhat.com/chocolatey/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

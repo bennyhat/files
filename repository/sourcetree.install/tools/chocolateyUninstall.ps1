@@ -1,0 +1,1 @@
+﻿Write-Host "At present, sourcetree.install must be uninstalled from the Windows Control Panel."

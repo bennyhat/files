@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ant.portable</id>
+    <title>Apache Ant</title>
+    <version>1.8.4</version>
+    <authors>Apache</authors>
+    <owners>Ben Brewer</owners>
+    <summary>Apache Ant 1.8.4</summary>
+    <description>Apache Ant Build Tool</description>
+    <projectUrl>http://ant.apache.org/</projectUrl>
+    <tags>ant ant.portable build java apache</tags>
+    <copyright></copyright>
+    <licenseUrl>http://ant.apache.org/manual/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="environment.variables" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

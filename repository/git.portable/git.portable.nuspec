@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>git.portable</id>
+    <title>Git Portable</title>
+    <version>1.9.4</version>
+    <authors>Git</authors>
+    <owners>Ben Brewer</owners>
+    <summary>Git Portable</summary>
+    <description>Git Portable</description>
+    <projectUrl>http://git-scm.com</projectUrl>
+    <tags>git.portable admin</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/git/git/blob/master/LGPL-2.1</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="environment.variables" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

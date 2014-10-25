@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>vagrant.install</id>
+    <title>Vagrant VM Manager</title>
+    <version>1.6.5</version>
+    <authors>Mitchell Hashimoto</authors>
+    <owners>Ben Brewer</owners>
+    <summary>Vagrant VM Manager</summary>
+    <description>Vagrant VM Manager</description>
+    <projectUrl>https://github.com/mitchellh/vagrant/blob/master</projectUrl>
+    <tags>vagrant admin</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/mitchellh/vagrant/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="environment.variables" />
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
