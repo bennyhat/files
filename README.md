@@ -2,8 +2,6 @@
 
 File Storage
 
-#contents of interest
-
 ## repository
 This is a web directory based chocolatey repository. It includes a packages.config file that points to various nupkg files in the directory tree.
 This file can be scraped by a modified [chocolatey](https://github.com/bennyhat/chocolatey) to cache the nupkg files locally.
